@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("img/fitgirl.jpg");
+  color: white;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-weight: bolder;
+}
+.left {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left:4px;
+  top: 20px;
+}
+.left img{
+    width:130px;
+    filter: invert(100%);
+}
+.left div{
+  text-align: center;
+}
+.mid {
+  /* border: 2px solid green; */
+  display: block;
+width: 50%;
+margin: 20px auto;
+
+}
+.right {
+  /* border: 2px solid hotpink; */
+display: inline-block;
+position: absolute;
+right: 8px;
+top: 20px;
+}
+.nav{
+display: inline-block;
+font-size: 20px;
+
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 25px;
+}
+.nav li a:hover , .nav li a:active{
+text-decoration: underline;
+color: violet;
+}
+.btn-right{
+  margin: 2px 14px;
+  background-color: black;
+  color: white;
+  padding: 3px 13px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn-right:hover{
+  color: violet;
+}
+h2{
+  margin: 0 25px;
+}
+ .btn{
+    margin: 12px 23px;
+    background-color: black;
+    color: white;
+    padding: 5px 161px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2', cursive;
+ }
+ .btn:hover{
+   color: yellow;
+ }
+
+.container{
+  /* border: 2px solid red; */
+margin: 111px 20px;
+width: 33%;
+border-radius: 25px;
+padding: 70px;
+}
+.form-group input{
+  font-size: 15px;
+text-align: center;
+display: block;
+border: 2px solid white;
+width: 86%;
+padding: 6px;
+margin: 5px auto;
+border-radius: 5px;
+}
